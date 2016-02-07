@@ -78,6 +78,7 @@ public class Animation {
 		if (this.timeOfAnimationCration + this.showDelay <= System.currentTimeMillis()) {
 			g2d.drawImage(animImage, x, x, x + frameWidth, y + frameHeight, startingXOfFrameInImage, 0,
 					endingXOfFrameInImage, frameHeight, null);
+			//
 		}
 	}
 }
